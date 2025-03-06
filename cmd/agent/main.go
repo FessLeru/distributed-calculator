@@ -12,7 +12,7 @@ import (
 var orchestratorURL = "http://localhost:8080"
 
 func main() {
-	computingPower := 4 // Количество горутин
+	computingPower := 4
 	for i := 0; i < computingPower; i++ {
 		go worker()
 	}
